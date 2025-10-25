@@ -1,0 +1,504 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        United States Department of Agriculture (USDA), National Agricultural Statistics Service (NASS)
+        Research and Development Division (RDD), Spatial Analysis Research Section (SARS)
+      Publication_Date: 2024
+      Title:
+        2022 Census of Agriculture State-Level Boundaries,
+        (stUSAKHI_LAEA_2022.shp -.shx, -.dbf, -.sbn, -.sbx, -.prj)
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Washington, DC
+        Publisher:
+          U.S. Department of Agriculture,
+          National Agricultural Statistics Service
+      Online_Linkage: https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Ag_Atlas_Maps/mapfiles/StUSAKHI_LAEA_2022.zip
+  Description:
+    Abstract:
+      The United States Department of Agriculture (USDA), National Agricultural
+      Statistics Service (NASS) conducted an Agricultural Census in 2022.  The
+      statistical census data are summarized at the state, county, and U.S. levels
+      and are available in a digital format.  The Research and Development Division
+      of NASS modified generalized state boundaries to show geographic areas for
+      which the 2022 Agricultural Census statistics are reported at the state
+      level.  These NASS state-level boundary files were used in the production of
+      the 2022 United States Census of Agriculture, Agricultural Census Web Maps.
+      The boundary files can be employed in a desktop or online Geographic Information
+      System (GIS) with the 2022 Agricultural Census statistical data by using the
+      NASS Agricultural Census state codes to associate the state-level spatial entities
+      with the NASS state-level statistical data.
+    Purpose:
+      The boundaries are intended for geographic display and analysis at the state
+      level.  The boundary data are designed for small scale thematic mapping
+      applications at a scale of 1:20,000,000 or smaller (e.g., 1:50,000,000, etc.).
+      The state-level boundaries are provided "as is".  The USDA/NASS does not
+      warrant the results you may obtain using the Agricultural Census state-level
+      boundary data.
+    Supplemental_Information:
+      These NASS Agricultural Census state-level boundary files may be used with statistical
+      data in the 2022 Census of Agriculture, Volume 1, Geographic Area Series, Parts 1 - 50.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2022
+        Ending_Date: 2024
+    Currentness_Reference:
+      2024: Publication of US, AK, HI state-level boundaries and land areas in a single shapefile.
+      2024-2023: Production of NASS state-level boundaries and land areas.
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -5,794,392.8564
+      East_Bounding_Coordinate: 2,516,293.0001
+      North_Bounding_Coordinate: 3,909,566.776
+      South_Bounding_Coordinate: -2,114,924.9612
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus:
+        National Agricultural Statistics Service, U.S. Department of
+        Agriculture, 2022 Census of Agriculture, Volume 1, Geographic Area Series, Parts
+        1 - 50, Washington, D.C., NASS/USDA.
+      Theme_Keyword: 2022 Census of Agriculture statistics for states
+    Place:
+      Place_Keyword_Thesaurus:
+        American National Standards Institute (ANSI), 2009, Information Technology Codes
+        for the Identification of the States, and Equivalent Areas within the United States,
+        Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+        American National Standards Institute.
+        https://webstore.ansi.org/RecordDetail.aspx?sku=INCITS+38-2009%5bR2014%5d
+        https://www.census.gov/library/reference/code-lists/ansi.html
+      Place_Keyword: U.S. States
+  Access_Constraints: None
+  Use_Constraints:
+    None.  Acknowledgment of the U.S. Department of Agriculture, National
+    Agricultural Statistics Service would be appreciated in products
+    derived from these data files.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: USDA NASS, Spatial Analysis Research Section Staff
+        Contact_Organization: USDA NASS, Spatial Analysis Research Section
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1400 Independence Avenue, SW, Room 5029 South Building
+        City: Washington
+        State_or_Province: District of Columbia
+        Postal_Code: 20250
+      Contact_Voice_Telephone: 800-727-9540
+      Contact_Facsimile_Telephone: 855-493-0447
+      Contact_Electronic_Mail_Address: SM.NASS.RDD.GIB@usda.gov
+  Data_Set_Credit: Research and Development Division staff
+  Native_Data_Set_Environment: Microsoft Windows 10; Environmental Systems Research Institute (ESRI) ArcGIS Pro 2.8 shapefile.
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Unmodified entities have entity codes and names which conform to
+      the American National Standards Institute's INCITS 38–2009[R2014],
+      formerly Federal Information Processing Standard (FIPS) 5-2.
+      Area values in square miles are derived from land polygon area
+      values from the U.S. Census Bureau's TIGER database.
+  Logical_Consistency_Report: No topological checks were performed on the data.
+  Completeness_Report:
+    The generalized data do NOT include 1) boundaries for the Aleutian
+    Islands in the Eastern Hemisphere, 2) boundaries for Hawaiian Islands
+    west of -160.555771 degrees longitude, 3) very small polygons because of
+    coordinate thinning, and 4) water polygons.  This data set provides the land
+    area in square miles and number of acres for each state equivalent.  The land
+    area values are based on the area of land polygons from the U.S. Census Bureau's
+    TIGER database.  If a state is composed of several polygons, the area value
+    assigned to each polygon is the land area value of the entire state (for the
+    purpose of choropleth mapping).  The state-level boundary for Maryland was
+    modified to include the District of Columbia (D.C.), because Agricultural Census
+    data for D.C. are not reported separately.  State-level American National Standards
+    Institute (ANSI) codes are used to identify states. Because Maryland and D.C. state
+    boundaries were aggregated, Maryland's ANSI code 24 represents both Maryland (24)
+    and D.C. (11).
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The state-level boundary data are highly generalized and suitable
+        for use in small scale (1:20,000,000) thematic mapping applications.
+        No accuracy tests were performed.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Bureau of the Census, Geography Division
+          Publication_Date: 2022
+          Title: usda_2022_us_state_20m feature class (Generalized digital vector state polygon files)
+          Publication_Information:
+            Publication_Place: Suitland, MD
+            Publisher: U.S. Bureau of the Census, Geography Division
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2022
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: BOCUSST22
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA, National Agricultural Statistics Service
+          Publication_Date: 2023
+          Title: NASS 2022 Agricultural Census state-level boundary file created with land area in square miles
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: USDA, National Agricultural Statistics Service
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2023
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: SQMIUSST22
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA, National Agricultural Statistics Service
+          Publication_Date: 2023
+          Title: NASS 2022 Agricultural Census state-level boundary file attributed and land acreage calculated
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: USDA, National Agricultural Statistics Service
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2023
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: ACREUSST22
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA, National Agricultural Statistics Service
+          Publication_Date: 2013
+          Title: 2012 Agricultural Census US coastline boundary file
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: USDA, National Agricultural Statistics Service
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2012
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USCOAST_WMS12
+      Source_Contribution: spatial information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA, National Agricultural Statistics Service
+          Publication_Date: 2023
+          Title: NASS 2022 Agricultural Census state-level boundary file clipped to 2012 coastline
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: USDA, National Agricultural Statistics Service
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2023
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USSTCLIP_WMS22
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA, National Agricultural Statistics Service
+          Publication_Date: 2023
+          Title: NASS 2022 Agricultural Census state-level boundary files extracted and projected for US, AK, HI
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: USDA, National Agricultural Statistics Service
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2023
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: STUSAKHI_AEA22
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA, National Agricultural Statistics Service
+          Publication_Date: 2024
+          Title: Final reprojected NASS 2022 Agricultural Census state-level boundary files for US, AK, HI
+          Publication_Information:
+            Publication_Place: Washington, DC
+            Publisher: USDA, National Agricultural Statistics Service
+      Source_Scale_Denominator: 20000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2023
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: StUSAKHI_LAEA22
+      Source_Contribution: spatial and attribute information
+    Process_Step:
+      Process_Description:
+        1 - Creation of NASS Agricultural Census state-level boundary file.
+        Use state boundary and attribute source files provided by the Bureau of the Census.
+        State boundaries were aggregated (dissolved) on the NASS Agricultural Census state
+        (ANSI) codes. State land area values were summed to produce state land area values
+        in square miles (District of Columbia aggregated with Maryland).
+      Source_Used_Citation_Abbreviation: BOCUSST22
+      Process_Date: 2023
+      Source_Produced_Citation_Abbreviation: SQMIUSST22
+    Process_Step:
+      Process_Description:
+        2 - Update of state-level boundary file.
+        The 2022 Agricultural Census state boundary files were updated with 2022 attribute
+        values. The state acreage fields were populated by multiplying the state land area
+        in square miles by 640 (1 square mile = 640 acres).
+      Source_Used_Citation_Abbreviation: SQMIUSST22
+      Process_Date: 2023
+      Source_Produced_Citation_Abbreviation: ACREUSST22
+    Process_Step:
+      Process_Description:
+        3 - Create coastline of the 2012 1:20,000,000 scale Agricultural Census boundary file.
+        Dissolve the 2012 1:20,000,000 scale Agricultural Census state-level boundary file to
+        create a coastline boundary file (more detailed than 2022 1:20,000,000 scale coastline).
+      Source_Used_Citation_Abbreviation: USSTATES_WMS12
+      Process_Date: 2013
+      Source_Produced_Citation_Abbreviation: USCOAST_WMS12
+    Process_Step:
+      Process_Description:
+        4 - Clip 2022 Agricultural Census state-level boundary file.
+        Projected 2012 1:20,000,000 US coastline boundary file and used it to clip the 2022
+        1:20,000,000 scale NASS Agricultural Census state-level boundary file. Clipping the 2022
+        state-level boundary file by the 2012 coastline adds more detail (e.g., coastal inlets)
+        to the 2022 state-level boundary file.
+      Source_Used_Citation_Abbreviation: ACREUSST22
+      Source_Used_Citation_Abbreviation: USCOAST_WMS12
+      Process_Date: 2023
+      Source_Produced_Citation_Abbreviation: USSTCLIP_WMS22
+    Process_Step:
+      Process_Description:
+        5 - Extract and project clipped NASS Agricultural Census state-level boundary files.
+        Extracted NASS 2022 clipped Agricultural Census state-level boundary files to create
+        separate shapefiles for the continental US, AK, and HI. Reprojected shapefiles
+        to custom Albers Equal Area projections.
+      Source_Used_Citation_Abbreviation: USSTCLIP_WMS22
+      Process_Date: 2023
+      Source_Produced_Citation_Abbreviation: STUSAKHI_AEA22
+    Process_Step:
+      Process_Description:
+        6 - Project NASS Agricultural Census state-level boundary file to Lambert Azimuthal Equal Area.
+        Merged separate shapefiles for the continental US, AK, and HI to a single shapefile and
+        reprojected the shapefile to Lambert Azimuthal Equal Area; added Census year attribute.
+      Source_Used_Citation_Abbreviation: STUSAKHI_AEA22
+      Process_Date: 2023
+      Source_Produced_Citation_Abbreviation: StUSAKHI_LAEA22
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference:
+    American National Standards Institute, 2009, Information Technology Codes for the
+    Identification of the States, and Equivalent Areas within the United States,
+    Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+    American National Standards Institute.
+    https://webstore.ansi.org/RecordDetail.aspx?sku=INCITS+38-2009%5bR2014%5d
+    https://www.census.gov/geo/reference/ansi.html
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-Polygon
+      Point_and_Vector_Object_Count: 50
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Azimuthal Equal Area
+        Lambert_Azimuthal_Equal_Area:
+          Longitude_of_Projection_Center: -100.0
+          Latitude_of_Projection_Center: 45.0
+          False_Easting: 0.0
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001
+          Ordinate_Resolution: 0.001
+        Planar_Distance_Units: meters
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: stUSAKHI_LAEA22
+      Entity_Type_Definition:
+        NASS State-level boundaries of geographic areas for which 2022 Agricultural
+        Census statistics are reported.
+      Entity_Type_Definition_Source: USDA, National Agricultural Statistics Service.
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature identification number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ATLAS_ST
+      Attribute_Definition: NASS state-equivalent ANSI code.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            American National Standards Institute, 2009, Information Technology Codes for the
+            Identification of the States, and Equivalent Areas within the United States,
+            Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+            American National Standards Institute.
+          Codeset_Source: American National Standards Institute
+    Attribute:
+      Attribute_Label: ST_ABBREV
+      Attribute_Definition: NASS State equivalent abbreviation.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            American National Standards Institute, 2009, Information Technology Codes for the
+            Identification of the States, and Equivalent Areas within the United States,
+            Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+            American National Standards Institute.
+          Codeset_Source: American National Standards Institute.
+    Attribute:
+      Attribute_Label: ATLAS_NAME
+      Attribute_Definition: Lowercase NASS state equivalent name.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            American National Standards Institute, 2009, Information Technology Codes for the
+            Identification of the States, and Equivalent Areas within the United States,
+            Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+            American National Standards Institute.
+          Codeset_Source: American National Standards Institute
+    Attribute:
+      Attribute_Label: ATLAS_CAPS
+      Attribute_Definition: Uppercase NASS state equivalent name.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            American National Standards Institute, 2009, Information Technology Codes for the
+            Identification of the States, and Equivalent Areas within the United States,
+            Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+            American National Standards Institute.
+          Codeset_Source: American National Standards Institute
+    Attribute:
+      Attribute_Label: ATLAS_AREA
+      Attribute_Definition: Land area in square miles of a NASS state equivalent.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1033.89 (actual value, not min. range value)
+          Range_Domain_Maximum: 571023.318 (actual value, not max. range value)
+          Attribute_Units_of_Measure: Square mile
+    Attribute:
+      Attribute_Label: ATLAS_ACRE
+      Attribute_Definition: Land area in acres of a NASS state equivalent.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 661689.6 (actual value, not min. range value)
+          Range_Domain_Maximum: 365454932.52 (actual value, not max. range value)
+          Attribute_Units_of_Measure: Acre
+    Attribute:
+      Attribute_Label: ENTITY
+      Attribute_Definition: Type of NASS state-level entity.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: State, State Equivalent
+          Enumerated_Domain_Value_Definition: Type of state-level entity.
+          Enumerated_Domain_Value_Definition_Source:
+            American National Standards Institute, 2009, Information Technology Codes for the
+            Identification of the States, and Equivalent Areas within the United States,
+            Puerto Rico, and the Insular Areas (INCITS 38–2009[R2014]):  Washington, D.C.,
+            American National Standards Institute.
+    Attribute:
+      Attribute_Label: CENSUS_YR
+      Attribute_Definition: Census of Agriculture Year for state-level boundaries.
+      Attribute_Definition_Source: USDA, National Agricultural Statistics Service
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2022
+          Enumerated_Domain_Value_Definition: Census of Agriculture year.
+          Enumerated_Domain_Value_Definition_Source: USDA, National Agricultural Statistics Service
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USDA, NASS Customer service
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1400 Independence Avenue, SW, Room 5038-S
+        City: Washington
+        State_or_Province: District of Columbia
+        Postal_Code: 20250-9410
+        Country: USA
+      Contact_Voice_Telephone: 1-800-727-9540
+      Contact_Facsimile_Telephone: 855-493-0447
+      Contact_Electronic_Mail_Address: SM.NASS.RDD.GIB@usda.gov
+  Resource_Description: United States: 2022 Census of Agriculture downloadable state-level boundary files.
+  Distribution_Liability:
+    Users of the Agricultural Census state-level boundary data are solely responsible for
+    interpretations made from the product.  The boundary data are provided "as is".
+    USDA/NASS does not warrant results you may obtain by using the boundary data.
+    Feel free to contact our staff at (SM.NASS.RDD.GIB@usda.gov) if technical
+    questions arise in the use of the state-level boundary data.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI Shapefile (.shp, .shx., .dbf, .sbn, .sbx, .prj)
+        Transfer_Size: .480
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Ag_Atlas_Maps/mapfiles/StUSAKHI_LAEA_20122.zip
+    Fees: There is no charge for online option.
+
+Metadata_Reference_Information:
+  Metadata_Date: 20240821
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USDA NASS, Spatial Analysis Research Section
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1400 Independence Avenue, SW, Room 5029 South Building
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20250-2001
+        Country: USA
+      Contact_Voice_Telephone: 800-727-9540
+      Contact_Facsimile_Telephone: 7855-493-0447
+      Contact_Electronic_Mail_Address: SM.NASS.RDD.GIB@usda.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
